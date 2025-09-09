@@ -38,7 +38,7 @@ function App() {
           <div className="min-h-screen flex w-full">
             <Routes>
               {/* Authentication Routes */}
-              <Route path="/" element={<Login/index />} />
+              <Route path="/" element={<Login />} />
 
               <Route path="/forgot-password" element={<ForgotPassword />} />
 
