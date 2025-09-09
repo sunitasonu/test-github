@@ -39,8 +39,7 @@ function App() {
             <Routes>
               {/* Authentication Routes */}
               <Route path="/" element={<Login />} />
-
-              <Route path="/forgot-password" element={<ForgotPassword />} />
+             <Route path="/forgot-password" element={<ForgotPassword />} />
 
               {/* Main Application Routes */}
               <Route
@@ -48,8 +47,8 @@ function App() {
                 element={
                   <Layout>
                     <Routes>
-                      <Route path="/dashboard" element={<Index/login />} />
-                      <Route
+                          <Route path="/dashboard" element={<Index />} />
+                  <Route
                         path="/dashboard"
                         element={<FinancialDashboard />}
                       />
