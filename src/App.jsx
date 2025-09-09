@@ -48,7 +48,7 @@ function App() {
                 element={
                   <Layout>
                     <Routes>
-                      <Route path="/dashboard" element={<Index />} />
+                      <Route path="/dashboard" element={<Index/login />} />
                       <Route
                         path="/dashboard"
                         element={<FinancialDashboard />}
